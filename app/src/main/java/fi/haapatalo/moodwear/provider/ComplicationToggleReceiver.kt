@@ -17,7 +17,8 @@ class ComplicationToggleReceiver : BroadcastReceiver() {
         val PREFERENCES_FILE_KEY = "fi.haapatalo.moodwear.PREFERENCES_FILE_KEY"
 
         val MOOD_ICONS = listOf("\uD83D\uDE00", "\uD83D\uDE01", "\uD83D\uDE02", "\uD83E\uDD23", "\uD83D\uDE06",
-                "\uD83D\uDE0A", "\uD83D\uDE0D", "\uD83E\uDD14", "\uD83E\uDD28", "\uD83D\uDE10", "\uD83D\uDE44")
+                "\uD83D\uDE0A", "\uD83D\uDE0D", "\uD83E\uDD14", "\uD83D\uDE10", "\uD83D\uDE44", "\uD83D\uDE22",
+                "\uD83D\uDE25", "\uD83D\uDE2D", "\uD83D\uDE13", "\uD83D\uDE2A", "\uD83D\uDE34", "\uD83E\uDD15")
 
         /**
          * Returns a pending intent, suitable for use as a tap intent, that causes a complication to be
