@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MoodWear</string>
+    <string name="complication_provider_mood">Mood</string>
 </resources>
