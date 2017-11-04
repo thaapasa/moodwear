@@ -7,6 +7,16 @@ in a watch face complication. Click icon to change mood.
 This is a standard Android Studio / IntelliJ IDEA -generated project 
 using gradle wrapper. Build using gradle, develop using IDEA / Android Studio.
 
+## Debugging in watch
+
+See instructions at 
+[https://developer.android.com/training/wearables/apps/debugging.html](https://developer.android.com/training/wearables/apps/debugging.html).
+
+Debug forwarding commands:
+
+    adb forward tcp:4444 localabstract:/adb-hub
+    adb connect 127.0.0.1:4444
+
 ## Icons
 
 Images can be vectorized at [https://www.vectorizer.io/](https://www.vectorizer.io/) 
